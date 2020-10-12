@@ -1,0 +1,74 @@
+body  {
+	background-color: pink;
+	font-family: "arial";
+}
+.navbar {
+  background-color: #212F3C ;
+  font-family: "Ink Free";
+  position: relative;
+  margin-bottom: 10px;
+  border: solid 1px;
+ border-color: black;
+  position: relative;
+  width: 100%;
+  height: 50px;
+} 
+
+i {
+  position: absolute;
+  left: 0;
+  top: 13px;
+  font-size: 30px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-family: "Narkisim";
+}
+#high{
+	 background-color: #20c997;
+ 	 color: black;
+}
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #20c997;
+  color: black;
+  
+}
+
+#context{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#context p{
+	font-family: "arial";
+	font-size: 20px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+#rolando{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-size: 50px;
+}
+
+#pic{
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
